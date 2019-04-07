@@ -89,10 +89,15 @@ p {
 /* Testimonial section*/
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
 h2 {
@@ -102,8 +107,17 @@ h2 {
     line-height: 1.5;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 .testimonial-img {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
