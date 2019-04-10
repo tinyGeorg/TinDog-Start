@@ -70,6 +70,7 @@ h3 {
 
 p {
     color: #8f8f8f;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .feature-items {
@@ -140,26 +141,30 @@ h2 {
 
 #cta {
     background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
     text-align: center;
 }
 
 .cta-title {
-    color: #fff;
-    padding: 3% 5% 2%;
-    width: 40%;
-    margin: 0 auto;
-}
-
-.cta-btn {
-    margin: 0 1.5% 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 /* footer */
 
 #footer {
+    padding: 7%;
     text-align: center;
-    margin: 70px;
 }
+
+.footer-icon > i {
+    margin: 20px 10px;
+}
+
+
 
 @media (max-width: 991px) {
     #title {
