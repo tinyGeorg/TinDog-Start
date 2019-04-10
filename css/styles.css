@@ -135,3 +135,39 @@ h2 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* cta section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-title {
+    color: #fff;
+    padding: 3% 5% 2%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.cta-btn {
+    margin: 0 1.5% 5%;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+    margin: 70px;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
