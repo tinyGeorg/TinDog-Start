@@ -33,6 +33,17 @@ p {
     padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -63,17 +74,10 @@ p {
 
 /* Title section */
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 2% 15% 7%;
+    text-align: left;
 }
-
-/* Title Image */
 
 .title-img {
     width: 60%;
@@ -86,7 +90,6 @@ p {
 /* Features Section */
 
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -96,8 +99,6 @@ p {
 
 .feature-items {
     padding: 3%;
-    /* line-height: 2; */
-    /* padding: 2% 0 6%; */
 }
 
 .feature-icons {
@@ -115,7 +116,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 #press {
@@ -158,11 +158,6 @@ p {
 
 /* cta section */
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
 
 /* footer */
 
@@ -174,15 +169,83 @@ p {
     margin: 20px 10px;
 }
 
-
+/* Media Querie */
 
 @media (max-width: 991px) {
-    #title {
+
+    /* Navigation Bar */
+    .nav-item {
+        text-align: left;
+    }
+
+
+    /* Title section */
+    #title .container-fluid {
         text-align: center;
+        padding: 2% 5%;
     }
 
     .title-img {
         position: static;
         transform: rotate(0);
+        width: 40%;
+        margin-bottom: 5%;
+    }
+
+    /* Testimonial section*/
+    .testimonial-text {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 565px) {
+
+    /* Download Buttons */
+    .download-btn {
+        margin: 3% auto;
+        padding: 10px 80px;
+    }
+
+
+    /* Headings */
+    .big-heading {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+
+    /* Title section */
+    .title-img {
+        width: 80%;
+        margin: 15% 0;
+    }
+
+
+    /* Testimonial section*/
+
+    .testimonial-img {
+        width: 25%;
+        margin: 10px;
+    }
+
+    .press-logo {
+        width: 30%;
+        margin: 15px 15px 40px;
+    }
+
+    /* Pricing section */
+    #pricing {
+        padding: 3rem 1.5rem;
+    }
+
+    .price-text {
+        font-size: 2rem;
+        line-height: 1.2;
     }
 }
