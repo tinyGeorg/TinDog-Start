@@ -207,6 +207,10 @@ p {
         padding: 10px 80px;
     }
 
+    .bottom-downloads {
+        display: none;
+    }
+
 
     /* Headings */
     .big-heading {
